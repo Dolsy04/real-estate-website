@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="image/image3.jpg" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/dd9eaac1cb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./image/image3.jpg" width="50" height="50" class="logo-icon" alt="House logo image">
+            <h1>HOUSE</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active-link nav-link">Home</a></li>
+                <li><a class="nav-link" href="house.html">House</a></li>
+                <li><a class="nav-link" href="about.html">About</a></li>
+                <li><a class="nav-link" href="#service">Services</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
+                <button class="log-in-btn nav-link">Log-in</button>
+                <button class="sign-up-btn nav-link">Register</button>
+                <!-- <li><a href=""></a></li> -->
+            </ul>
+        </nav>
+        <div class="sign-log-in">
+            <button class="log-in-btn">Log-in</button>
+            <button class="sign-up-btn">Register</button>
+        </div>
+        <div class="res-nav-btn">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+
+    <main>
+        <section class="sign-up-section">
+            <img src="./image/x.png" class="close-container" width="40" alt="close-container">
+            <div class="sign-up-head">
+                <h3>Create Account</h3>
+                <p>Fill in your correct details</p>
+            </div>
+
+            <form action="">
+                <input type="text" placeholder="First Name" required><br>
+                <input type="text" placeholder="Other Name" required><br>
+                <input type="email" placeholder="Email" required><br>
+                <div class="password-container">
+                    <input type="password" placeholder="Password" class="sign-up-password-input" required>
+
+                    <img src="./image/showPassword.png" class="sign-up-toggle-password" width="24px" alt="toggle password hide and show icon">
+                </div>
+                <input type="submit" value="Sign-Up">
+            </form>
+            <p class="acct-already">Already have an account <button class="log-in-btn">Log-in</button></p>
+        </section>
+
+        <section class="log-in-section">
+            <img src="./image/x.png" class="close-container" width="40" alt="close-container">
+            <div class="log-in-head">
+                <h3>Log In</h3>
+                <p>Fill in your correct details</p>
+            </div>
+
+            <form action="">
+                <input type="email" placeholder="Email" required><br>
+                <div class="password-container">
+                    <input type="password" placeholder="Password"  class="log-in-password-input" required>
+
+                    <img src="./image/showPassword.png" class="log-in-toggle-password" width="24px" alt="toggle password hide and show icon">
+                </div>
+                <input type="submit" value="Log-In">
+            </form>
+            <p class="log-in-acct-already">Do not have an account <button class="sign-up-btn">sign-Up</button></p>
+        </section>
+
+        <section class="to-top">
+            <button class="toTop"><i class='bx bx-up-arrow-alt'></i></button>
+        </section>
+
+        <section class="hero-section" id="home">
+            <div class="note-hand-side">
+                <p class="hero-note"><strong>find your suitable house here</strong></p>
+                <p class="hero-note">Dallas house industry provide you with a type of house that will suit your taste.</p>
+            </div>
+            <div class="hero-image-container">
+                <img src="./image/image1.jpg" width="500" alt="">
+            </div>
+        </section>
+
+        <section class="banner-section">
+            <div class="banner-container">
+                   <div>
+                    <p>200<span>+</span></p>
+                    <p>Buildings</p>
+                   </div>
+                   <div>
+                    <p>90<span>+</span></p>
+                    <p>Available Buildings</p>
+                   </div>
+                   <div>
+                    <p>180<span>+</span></p>
+                    <p>Available Agent</p>
+                   </div>
+                   <div>
+                    <p>100<span>+</span></p>
+                    <p>Awards</p>
+                   </div>
+            </div>
+        </section>
+
+        <section class="properties-section" id="house">
+            <div class="properties-container">
+                <div class="heading-title-see-more">
+                    <div>
+                        <h3>Available House</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, distinctio</p>
+                    </div>
+                    <a href="house.html" class="explore-more">Explore More <i class='bx bx-right-arrow-alt'></i></a>
+                </div>
+                <div class="properties-list" id="product">
+                    <div class="properties-item">
+                        <img src="./image/image3.jpg" width="300" height="200" alt="building 1">
+                        <div class="properties-details">
+                        <div class="heading-para">
+                            <h4 class="building-name">Building 1</h4>
+                            <span class="building-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, exercitationem?</span>
+                        </div>
+                        <div class="properties-inner-details">
+                            <div class="properties-inner-details-item">
+                                <i class='bx bxs-door-open'></i>
+                                <p>9 Rooms</p>
+                            </div>
+                            <div class="properties-inner-details-item">
+                                <i class="fa-solid fa-bed"></i>
+                                <p>3 Bedrooms</p>
+                            </div>
+                            <div class="properties-inner-details-item">
+                                <i class='bx bxs-bath'></i>
+                                <p>3 BathRooms</p>
+                            </div>
+                            <div class="properties-inner-details-item">
+                                <i class='bx bxs-location-plus'></i>
+                                <p>Osogbo, Osun-State</p>
+                            </div>
+                        </div>
+                        <div class="price-buy-btn">
+                            <button>Book</button>
+                            <p class="price"><i class="fa-solid fa-naira-sign"></i> 220,000,000</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="properties-item">
+                        <img src="./image/image1.jpg" width="300" height="200" alt="building 2">
+                        <div class="properties-details">
+                        <div class="heading-para">
+                            <h4 class="building-name">Building 2</h4>
+                            <span class="building-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, exercitationem?</span>
+                        </div>
+                        <div class="properties-inner-details">
+                            <div class="properties-inner-details-item">
+                                <i class='bx bxs-door-open'></i>
+                                <p>6 Rooms</p>
+                            </div>
+                            <div class="properties-inner-details-item">
+                                <i class="fa-solid fa-bed"></i>
+                                <p>2 Bedrooms</p>
+                            </div>
+                            <div class="properties-inner-details-item">
+                                <i class='bx bxs-bath'></i>
+                                <p>2 BathRooms</p>
+                            </div>
+                            <div class="properties-inner-details-item">
+                                <i class='bx bxs-location-plus'></i>
+                                <p>Osogbo, Osun-State</p>
+                            </div>
+                        </div>
+                        <div class="price-buy-btn">
+                            <button>Book</button>
+                            <p class="price"><i class="fa-solid fa-naira-sign"></i> 160,000,000</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="properties-item">
+                        <img src="./image/image2.jpg" width="300" height="200" alt="building 3">
+                        <div class="properties-details">
+                        <div class="heading-para">
+                            <h4 class="building-name">Building 3</h4>
+                            <span class="building-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, exercitationem?</span>
+                        </div>
+                        <div class="properties-inner-details">
+                            <div class="properties-inner-details-item">
+                                <i class='bx bxs-door-open'></i>
+                                <p>8 Rooms</p>
+                            </div>
+                            <div class="properties-inner-details-item">
+                                <i class="fa-solid fa-bed"></i>
+                                <p>3 Bedrooms</p>
+                            </div>
+                            <div class="properties-inner-details-item">
+                                <i class='bx bxs-bath'></i>
+                                <p>3 BathRooms</p>
+                            </div>
+                            <div class="properties-inner-details-item">
+                                <i class='bx bxs-location-plus'></i>
+                                <p>Ilorin, Kwara-State</p>
+                            </div>
+                        </div>
+                        <div class="price-buy-btn">
+                            <button>Book</button>
+                            <p class="price"><i class="fa-solid fa-naira-sign"></i> 250,000,000</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="about-container">
+                <div class="about-note">
+                    <h3 class="about-heading">we are ready to make <br> Dream come true</h3>
+                    <p class="about-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A libero aperiam fugiat eum necessitatibus tenetur consequaturfugiat aspernatur impedit nostrum. Accusantium, veritatis.</p>
+                    <button class="read-more" onclick="window.location.href='about.html'">Read More</button>
+                </div>
+                <div class="about-image-container">
+                    <div class="relative-container">
+                        <img src="./image/image3.jpg" width="400" height="300" class="image1" alt="">
+                    </div>
+                    <div>
+                        <img src="./image/image2.jpg" width="300" height="200" class="image2" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-section" id="service">
+            <div class="services-container">
+                <h3 class="service-title">What we offer</h3>
+                <p class="service-note">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, ad?</p>
+                <div class="service-list">
+                    <div class="service-item">
+                        <img src="./image/image3.jpg" width="100" alt="">
+                        <div>
+                            <h3>Rent House</h3>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <img src="./image/image2.jpg" width="100" height="100" alt="">
+                        <div>
+                            <h3>Buy House</h3>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <img src="./image/image1.jpg" width="100" height="100" alt="">
+                        <div>
+                            <h3>Event Hall</h3>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <img src="./image/image4.jpg" width="100" alt="">
+                        <div>
+                            <h3>Sell House</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="logo-quick-contact">
+            <!-- <h3 class="footer-title">Company</h3> -->
+            <div class="footer-logo">
+                <img src="./image/image1.jpg" width="200px" alt="">
+            </div>
+            <div class="quick-contact">
+                <ul>
+                    <li>
+                        <a href="mailto:housecompany@gmail.com"><i class='bx bxs-envelope'></i> housecompany@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="tel:08113441673"><i class='bx bxs-phone-call'></i> 08113441673</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="social-link">
+                <ul>
+                    <li>
+                        <a href=""><i class='bx bxl-facebook'></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class='bx bxl-whatsapp'></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class='bx bxl-linkedin'></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class='bx bxl-instagram'></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="quick-link">
+            <h3 class="footer-title">Quick Link</h3>
+            <div class="inner-quick-link">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="house.html">Houses</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="">Log-In</a></li>
+                    <li><a href="">Sign-Up</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="guildline">
+            <h3 class="footer-title">Guidelines</h3>
+            <div class="inner-guildline-link">
+                <ul>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Agents</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Policy & Privacy</a></li>
+                    <li><a href="">Terms and Condition</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="subscribe-copyright">
+            <div>
+                <p class="subcribe-title">Subscribe to our newsletters</p>
+                <form action="">
+                    <input type="email" placeholder="your@gmail.com" required><br>
+                    <input type="submit" value="Subscribe">
+                </form>
+            </div>
+            <div>
+                <p class="copyright">&copy; <span class="year"></span>, All Right Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
